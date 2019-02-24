@@ -21,7 +21,9 @@ re_repl = {
     r"\bwon't\b": "will not",
     r"\bwouldn't\b": "would not",
     r"\bcan't\b": "can not",
-    r"\bcannot\b": "can not"
+    r"\bcannot\b": "can not",
+    r"\byall\b": "you all",
+    r"\by\b": "why"
 }
 
 emo_repl = {
@@ -43,6 +45,7 @@ emo_repl = {
     ":(": " bad ",
     ":S": " bad ",
     ":-S": " bad ",
+    "x.x": " bad "
 }
 
 # make sure that e.g. :dd is replaced before :d
